@@ -272,3 +272,6 @@ After pushing, refresh GitHub and the README should appear on the repository's m
 [View your GitHub repository](https://github.com/hemalathas838/Full-Stack-Job-Portal?utm_source=chatgpt.com)
 
 **Don't put your actual MongoDB URI, email password, or JWT secret in the README.** Keep those only in your local `.env`.
+## 🖥️ Project Preview
+
+![Full-Stack Job Portal Preview](screenshots/project-preview.png)

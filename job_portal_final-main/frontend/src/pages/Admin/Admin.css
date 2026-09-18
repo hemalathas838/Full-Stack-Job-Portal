@@ -1,0 +1,325 @@
+/* Full Screen Background */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #0f172a, #1e293b); */
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Login Card */
+.form-box {
+  width: 360px;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Heading */
+.form-box h2 {
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+/* Input Group */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-group input {
+  width: 100%;
+  padding: 12px 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Focus Effect */
+.input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.4);
+}
+
+/* Icons (Left) */
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+/* Toggle (Right) */
+.toggle {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Footer Text */
+.link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.manage-students {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.manage-students h2 {
+  margin-bottom: 20px;
+  color: #041133;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f9f9f9;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #041133;
+  color: #fff;
+}
+
+table tr:hover {
+  background-color: #eaeaea;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+    margin-right: 5px; /* <-- add space between buttons */
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(1) {
+  /* background-color: #28a745;  */
+  /* Approve */
+  color: #0d6d35;
+}
+
+button:nth-child(2) {
+  /* background-color: #ffc107; */
+   /* Edit */
+  color: #000;
+}
+
+button:nth-child(3) {
+  /* background-color: #dc3545; */
+   /* Delete */
+  color: #aa9999;
+ }
+
+.verify-student-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.verify-student-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.student-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.student-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.student-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.approve-btn {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.approve-btn:hover {
+  background-color: #16a34a;
+}
+
+.back-btn:hover {
+  background-color: #2563eb;
+}
+
+.edit-student-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.edit-student-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.edit-student-form label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: bold;
+}
+
+.edit-student-form input,
+.edit-student-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #16a34a;
+}
+
+.back-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #2563eb;
+} 
+
+.verify-container {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.approve {
+  background: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.reject {
+  /* background: #dc3545; */
+  color: white;
+}

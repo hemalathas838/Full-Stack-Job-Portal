@@ -1,0 +1,88 @@
+.verify-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  background: white;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.approve {
+  background: green;
+  color: white;
+}
+
+.reject {
+  background: orange;
+  color: white;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
+
+.company-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: #007bff;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.back-btn {
+  margin-bottom: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  background-color: rgb(13, 13, 245);
+  color: white;
+}
+

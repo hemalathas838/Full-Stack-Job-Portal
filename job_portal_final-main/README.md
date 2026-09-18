@@ -274,4 +274,4 @@ After pushing, refresh GitHub and the README should appear on the repository's m
 **Don't put your actual MongoDB URI, email password, or JWT secret in the README.** Keep those only in your local `.env`.
 ## 🖥️ Project Preview
 
-![Full-Stack Job Portal Preview](screenshots/project-preview.png)
+![Full-Stack Job Portal Preview](screenshot/project-preview.png)
